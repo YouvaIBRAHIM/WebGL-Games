@@ -1,0 +1,11 @@
+Model Information:
+* title:	Power Ring
+* source:	https://sketchfab.com/3d-models/power-ring-cd33d0d20a0740ddb4f1b5537d9c4b71
+* author:	tcra3751 (https://sketchfab.com/tcra3751)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Power Ring" (https://sketchfab.com/3d-models/power-ring-cd33d0d20a0740ddb4f1b5537d9c4b71) by tcra3751 (https://sketchfab.com/tcra3751) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

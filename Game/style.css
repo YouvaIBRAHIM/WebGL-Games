@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+#presentation{
+    display: block;
+    position: fixed;
+    top: 15%;
+    left: 1%;
+    width: 33%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: rgba(0, 0,0, 0.8);
+    padding-bottom: 20px;
+}
+#score{
+    position: fixed;
+    left: 34%;
+    width: 33%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top : 35px;
+    font-size: 32px;
+    background-color: rgba(0, 0,0, 0.5);
+}
+#bestScore{
+    position: fixed;
+    left: 80%;
+    top: 90%;
+    width: auto;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    padding : 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0,0, 1);
+}
+#lifes{
+    position: fixed;
+    left: 20%;
+    width: 10%;
+    height: 40px;
+    color: rgb(255, 2, 2);
+    text-align: center;
+    font-size: 64px;
+    background-color: rgba(0, 0,0, 0);
+}
+#pause{
+    position: fixed;
+    left: 70%;
+    width: 120px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+    background-color: rgba(0, 0,0, 0);
+}
+#level{
+    position: fixed;
+    left: 34%;
+    width: 33%;
+    height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: rgba(0, 0,0, 1);
+}
+#instructions{
+    position: fixed;
+    top: 85%;
+    left: 1%;
+    width: 33%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: rgba(0, 0,0, 0.5);
+}
+#gameOver{
+    display: none;
+    position: fixed;
+    top: 30%;
+    left:33.5%;
+    width: 33%;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 80px 0 80px 0;
+    font-size: 48px;
+    background-color: rgba(0, 0,0, 0.8);
+}
+#start{
+    display: block;
+    position: fixed;
+    top: 47%;
+    left:33.5%;
+    width: 33%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 48px;
+    background-color: rgba(0, 0,0, 0.9);
+}
+#restart{
+    display: none;
+    position: fixed;
+    top: 53.1%;
+    left:33.5%;
+    width: 33%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 48px;
+    background-color: rgba(0, 0,0, 0.9);
+}
+@media screen and (max-width:800px){
+    #lifes{
+        left: 15%;
+    }
+}
+@media screen and (max-width:600px){
+    #lifes{
+        left: 10%;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js app</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <button id="start">START</button>
+    <span id="gameOver">GAME OVER</span>
+    <button id="restart">RESTART</button>
+    <span id="lifes">&#x2665;&#x2665;&#x2665;</span>
+    <span id="score"></span>
+    <span id="bestScore">Best Score : xxxx</span>
+    <span id="level">Level : 1</span>
+    <button id="pause">&#9611;&#9611;</button>
+    <span id="instructions">
+        Z = Up </br>
+        S = Down </br>
+        Q = Left </br>
+        D = Right </br>
+        Space = Accelerate </br>
+        CTRL = Camera Perspective
+    </span>
+    <div id="presentation">
+        <h1>Wing Impact</h1>
+        <span>Vous prenez le contrôle du U-Wing avec
+             lequel vous devez traverser un champ
+              d'astéroïdes qu’il faudra éviter. 3 vies
+               (max) vous sont attribuées, mais vous en
+                perdrez une à chaque fois que vous
+                 toucherez un astéroïde. Le but est
+                  simple : obtenir le maximum de score possible.
+                Que la Force soit avec vous ! </span>
+
+        <h4>How To Play</h4>
+        <span>
+            - Si le joueur appuie sur les touches Z/Q/S/D : contrôle du vaisseau U-Wing</br>
+            - Si le joueur appuie sur la barre d’espace : le vaisseau accélère (ce qui permet de multiplier le score). </br>
+            - Si le vaisseau touche un anneau : +2000 points (doublés à chaque nouveau niveau).</br>
+            - Si le vaisseau touche un coeur : +1 vie.</br>
+            - Si le vaisseau touche un astéroïde : -1 vie. </br>
+            - Le vaisseau ne peut sortir du champ d'astéroïdes.</br> 
+            - Si vous finnissez le niveau, vous reviendrez au début et le vaisseau passera à une vitesse supérieure.</br>
+            - Le score ne s'arrête pas entre les niveaux.</br>
+            - Le score est est multiplié par x1.1 à chaque nouveau niveau.</br>
+            - Les bonus récupérés ne seront plus visibles au niveau suivant (il faudra choisir le bon moment pour prendre un bonus)
+
+        </span>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
